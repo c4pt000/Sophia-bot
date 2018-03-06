@@ -8,7 +8,7 @@ from functools import wraps, partial
 import logging
 import threading
 import pprint
-from chatbot.utils import norm
+from utils import norm
 import uuid
 
 import sys
