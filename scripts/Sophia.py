@@ -15,7 +15,9 @@ class IRCLogger(irc.IRCClient):
         self.nickname = 'Sophia-bot'
         self.cog_client = Client(HR_CHATBOT_AUTHKEY)
         self.prefix = self.nickname + ', '
-
+	self.prefixs = self.nickname + ' '
+	self.prefixc = self.nickname + ': '
+	
     def signedOn(self):
         self.join('#null')
 
@@ -26,6 +28,17 @@ class IRCLogger(irc.IRCClient):
             message = message[len(self.prefix):]
             response = self.cog_client.ask(message)
 	    self.msg(channel, str(response['text']))
+	
+	if message.startswith(self.prefixs):
+            message = message[len(self.prefixs):]
+            response = self.cog_client.ask(message)
+	    self.msg(channel, str(response['text']))
+
+        if message.startswith(self.prefixc):
+            message = message[len(self.prefixc):]
+            response = self.cog_client.ask(message)
+	    self.msg(channel, str(response['text']))
+
 
 def main():
     f = protocol.ReconnectingClientFactory()
