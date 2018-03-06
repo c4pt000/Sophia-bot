@@ -18,7 +18,7 @@ reactor.connectTCP('moon.freenode.net', 6667, f)
 
 run the chatbot server and connect the irc bot
 
-sh run_server_and_ircbot.sh
+"sh run_server_and_ircbot.sh"
 
 
 it might also be possible to connect to the client frontend in your browser while the bot is connected with
