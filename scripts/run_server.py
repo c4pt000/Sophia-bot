@@ -23,7 +23,10 @@ if 'HR_CHARACTER_PATH' not in os.environ:
 
 from chatbot.server.config import SERVER_LOG_DIR, HISTORY_DIR
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7a2f79ad0989758821027ab4f010e83042522206
 def init_logging():
     if not os.path.isdir(SERVER_LOG_DIR):
         os.makedirs(SERVER_LOG_DIR)

@@ -154,7 +154,11 @@ if __name__ == '__main__':
     logging.basicConfig()
     text = '''My mind is built using Hanson Robotics' character engine, a simulated humanlike brain that runs inside a personal computer. Within this framework, Hanson has modelled Phil's personality and emotions, allowing you to talk with Phil through me, using speech recognition, natural language understanding, and computer vision such as face recognition, and animation of the robotic muscles in my face.'''
     print len(text)
+<<<<<<< HEAD
     print (text)
+=======
+    print text
+>>>>>>> 7a2f79ad0989758821027ab4f010e83042522206
     print shorten(text, 123)
 
     text = '''My mind is built using Hanson Robotics' character engine'''

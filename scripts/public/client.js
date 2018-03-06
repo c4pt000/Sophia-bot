@@ -55,7 +55,10 @@ Client.post = function(url, params, file){
     return HTTP_REQ;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7a2f79ad0989758821027ab4f010e83042522206
 function Client(username, key){
     const PROMPT = '[me]: ';
     let session = undefined;
