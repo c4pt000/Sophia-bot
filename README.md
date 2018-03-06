@@ -26,6 +26,7 @@ it might also be possible to connect to the client frontend in your browser whil
 http://localhost:8001/v1.1/client
 
 
+*thank you to habbasi for helping me debug the irc bot's replies with client.py
 
 This is a premature question-answering server. The goal is to provide a ROS independent, scalable, platform-independent QA.
 
