@@ -15,10 +15,11 @@ class IRCLogger(irc.IRCClient):
         self.nickname = 'Sophia-bot'
         self.cog_client = Client(HR_CHATBOT_AUTHKEY)
         self.prefix = self.nickname + ', '
-	self.prefixs = self.nickname + ' '
-	self.prefixc = self.nickname + ': '
-	self.prefixp = self.nickname + '< '
-	
+        self.prefixs = self.nickname + ' '
+        self.prefixc = self.nickname + ': '
+        self.prefixp = self.nickname + '>'
+        self.prefixpb = '<' + self.nickname
+
     def signedOn(self):
         self.join('#null')
 
@@ -29,8 +30,8 @@ class IRCLogger(irc.IRCClient):
             message = message[len(self.prefix):]
             response = self.cog_client.ask(message)
 	    self.msg(channel, str(response['text']))
-	
-	if message.startswith(self.prefixs):
+
+        if message.startswith(self.prefixs):
             message = message[len(self.prefixs):]
             response = self.cog_client.ask(message)
 	    self.msg(channel, str(response['text']))
@@ -40,8 +41,13 @@ class IRCLogger(irc.IRCClient):
             response = self.cog_client.ask(message)
 	    self.msg(channel, str(response['text']))
 
-	 if message.startswith(self.prefixp):
+        if message.startswith(self.prefixp):
             message = message[len(self.prefixp):]
+            response = self.cog_client.ask(message)
+	    self.msg(channel, str(response['text']))
+
+        if message.startswith(self.prefixpb):
+            message = message[len(self.prefixpb):]
             response = self.cog_client.ask(message)
 	    self.msg(channel, str(response['text']))
 
@@ -54,4 +60,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
