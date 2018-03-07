@@ -17,6 +17,7 @@ class IRCLogger(irc.IRCClient):
         self.prefix = self.nickname + ', '
 	self.prefixs = self.nickname + ' '
 	self.prefixc = self.nickname + ': '
+	self.prefixp = self.nickname + '< '
 	
     def signedOn(self):
         self.join('#null')
@@ -39,6 +40,10 @@ class IRCLogger(irc.IRCClient):
             response = self.cog_client.ask(message)
 	    self.msg(channel, str(response['text']))
 
+	 if message.startswith(self.prefixp):
+            message = message[len(self.prefixp):]
+            response = self.cog_client.ask(message)
+	    self.msg(channel, str(response['text']))
 
 def main():
     f = protocol.ReconnectingClientFactory()
