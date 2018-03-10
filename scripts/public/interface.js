@@ -43,7 +43,7 @@ function exit(){
 
 function download(text, fname, file){
     const elem = document.createElement("a");
-    const file = new Blob([txt], {type: type});
+    // might break on safari const file = new Blob([txt], {type: type});
     elem.href = URL.createObjectURL(file);
     elem.download = name;
     elem.innerText = "Click here to download";
