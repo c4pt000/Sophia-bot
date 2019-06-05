@@ -1,4 +1,24 @@
 # Sophia-bot
+<br>
+(centos)
+<br>
+
+centos-release-scl.noarch : Software collections from the CentOS SCLo SIG
+<br>
+centos-release-scl-rh.noarch : Software collections from the CentOS SCLo SIG
+<br>
+
+yum install centos-release-scl
+<br>
+
+yum install rh-python36
+<br>
+
+scl enable rh-python36 bash
+<br>
+
+
+
 chatbot server and client using python from hansonrobotics/chatbot loads a twisted python irc bot
 
 
