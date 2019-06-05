@@ -322,3 +322,40 @@ Parameters:
 Return:
 - *ret* - Return code
 - *response*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+if you found this useful, anything helps
+
+1LzcsiiKveiDrPp6VGhQCg44dnQzqY2vNv
+
+https://www.binance.com/userCenter/deposit.html      << for bitcoin mc/visa
+
+
+![s1](https://i.imgur.com/py97aYA.png)
+
+
