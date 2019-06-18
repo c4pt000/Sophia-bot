@@ -20,13 +20,24 @@ scl enable rh-python36 bash
 <br>
 <br>
 
- # * macOS 
+#  macOS 
 <br>
 as root:
 <br>
 sh install-macos-deps.sh
 <br>
 sh macOS_run_server_and_noirc.sh
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 
