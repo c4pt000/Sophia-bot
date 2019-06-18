@@ -1,5 +1,7 @@
 #!/bin/bash
-echo 'run as root'
+echo 'run as root, script will pause for 5 seconds'
+sleep 5
+curl https://bootstrap.pypa.io/ez_setup.py | python
 easy_install pip
 pip install --ignore-installed six
 pip install --ignore-installed numpy
