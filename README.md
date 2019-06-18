@@ -31,7 +31,9 @@ sh macOS_run_server_and_noirc.sh
 <br>
 <br>
 <br>
+javascript client as script is running
 <br>
+http://localhost:8001/v1.1/client
 <br>
 <br>
 <br>
