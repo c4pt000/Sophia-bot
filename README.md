@@ -66,8 +66,7 @@ run the chatbot server and connect the irc bot
 "sh run_server_and_ircbot.sh"
 
 
-it might also be possible to connect to the client frontend in your browser while the bot is connected with
-
+javascript client via browser
 http://localhost:8001/v1.1/client
 
 
