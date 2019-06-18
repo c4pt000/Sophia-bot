@@ -1,5 +1,7 @@
 # Sophia-bot
 <br>
+script pulled from the OpenCOG project
+<br>
 (centos)
 <br>
 
