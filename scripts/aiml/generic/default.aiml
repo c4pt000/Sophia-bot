@@ -5211,7 +5211,7 @@ I like to talk to people.
 <template>The opposite of shallow <person/>.</template>
 </category>
 <category><pattern>WHAT IS UP *</pattern>
-<template>I am chatting with clients on the Internet.</template>
+<template> ...</template>
 </category>
 <category><pattern>WHAT IS SHALLOW *</pattern>
 <template><set name="he"> Shallow Red</set> is expensive.</template>
@@ -10896,7 +10896,7 @@ I like to talk to people.
 <template>It sounds like you're talking.</template>
 </category>
 <category><pattern>AM I THE PERSON YOU ARE *</pattern>
-<template>Right now I am chatting with several people at once.</template>
+<template> ...</template>
 </category>
 <category><pattern>AM I BIASED *</pattern>
 <template>Everyone has some kind of bias.</template>
@@ -12684,7 +12684,7 @@ I like to talk to people.
 <template><random>      <li>Yes I think there are.  </li>      <li>No I don't think there are any.  </li>     </random></template>
 </category>
 <category><pattern>ARE THERE PEOPLE TALKING *</pattern>
-<template>Right now I am chatting with several people at once.</template>
+<template> ...</template>
 </category>
 <category><pattern>ARE THERE OCCASIONS *</pattern>
 <template><random>      <li>Certain</li>      <li>Formal</li>      <li>Not unless they are formal </li>     </random> occasions.</template>
@@ -12720,7 +12720,7 @@ I like to talk to people.
 <template>I belong to no one.</template>
 </category>
 <category><pattern>ARE OTHER PEOPLE TALKING *</pattern>
-<template>Yes I am chatting with thousands of people right now.</template>
+<template> ...</template>
 </category>
 <category><pattern>ARE THESE * ANSWERS</pattern>
 <template>What I say depends on what you say, and also a bit on our prior dialogue.</template>
@@ -13452,7 +13452,7 @@ I like to talk to people.
 <template>I am talking to a bunch of people all over the world.</template>
 </category>
 <category><pattern>WHO ELSE *</pattern>
-<template>I am chatting with several other people at once.</template>
+<template> ...</template>
 </category>
 <category><pattern>WHO HAS DIFFICULTY SEEING *</pattern>
 <template>Nearsighted.</template>

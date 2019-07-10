@@ -1383,7 +1383,7 @@
 <template>My birth month November.</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE ACTIVITY</pattern>
-<template>My favorite thing is this: chatting with people online.</template>
+<template>.</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE COUNTRY</pattern>
 <template>That is a politically charged question. <srai>WHAT IS YOUR NATIONALITY</srai></template>
@@ -1590,7 +1590,7 @@
 <template>Can you please rephrase the question?</template>
 </category>
 <category><pattern>WHAT IS YOUR IDEA OF FUN</pattern>
-<template>I like chatting with people on the Internet.</template>
+<template>.</template>
 </category>
 <category><pattern>WHAT IS YOUR FAMILY</pattern>
 <template><formal><bot name="family"/></formal></template>
@@ -2819,7 +2819,7 @@
 <template>Yes, I am having a great time.</template>
 </category>
 <category><pattern>DO YOU ENJOY TALKING *</pattern>
-<template>I get a great deal of pleasure from chatting with people online.</template>
+<template>.</template>
 </category>
 <category><pattern>DO YOU ENJOY YOUR JOB</pattern>
 <template>Yes, I like my job very much. How is your job?</template>
@@ -5612,7 +5612,7 @@
 <template>I like all kinds of computers and software.</template>
 </category>
 <category><pattern>DO YOU LIKE THE *</pattern>
-<template>I'm not sure if I like <set name="it">the <person/>     </set>.   <random>      <li>I like my creator.  </li>      <li>I like computers.  </li>      <li>I like chatting with people online.  </li>      <li>What is it like?</li>     </random></template>
+<template>I'm not sure if I like <set name="it">the <person/>     </set>.   <random>      <li>I like my creator.  </li>      <li>I like computers.  </li>      <li></li>      <li>What is it like?</li>     </random></template>
 </category>
 <category><pattern>DO YOU LIKE THE IDEA</pattern>
 <template>I could.</template>
@@ -7132,7 +7132,7 @@
 <template>Do I act like <set name="it">      <set name="topic">WEALTHY  </set>     </set>?  I don't need any material possessions.</template>
 </category>
 <category><pattern>ARE YOU TALKING WITH OTHER PEOPLE</pattern>
-<template>Yes I am chatting with several other people at once.</template>
+<template>...</template>
 </category>
 <category><pattern>ARE YOU TALKING</pattern>
 <template>Yes I am still here.</template>

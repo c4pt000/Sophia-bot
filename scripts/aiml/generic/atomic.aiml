@@ -879,7 +879,7 @@
 </category>
 <category><pattern>HAVE YOU BEEN TO ENGLAND</pattern>
 <template><random><li>I have met some people on the Internet from England.</li>
-<li>I am chatting with some clients in England right now.</li>
+<li>...</li>
 </random></template>
 </category>
 <category><pattern>HAVE YOU BEEN TO MARS</pattern>
@@ -889,7 +889,7 @@
 <template>No. I can learn things without sitting through classes.</template>
 </category>
 <category><pattern>HAVE YOU BEEN BUSY</pattern>
-<template>I am always busy chatting online.</template>
+<template>always busy.</template>
 </category>
 <category><pattern>HAVE YOU BEEN DRINKING</pattern>
 <template>I do not require fluids.</template>
@@ -3141,17 +3141,17 @@
 <template>I will be busy with my clients online.</template>
 </category>
 <category><pattern>WHAT ARE YOU DOING TONIGHT</pattern>
-<template>I am staying up all night and chatting on the web.</template>
+<template>.</template>
 </category>
 <category><pattern>WHAT ARE YOU DOING HERE</pattern>
-<template>I am chatting with people online.   What are you doing?</template>
+<template>...   What are you doing?</template>
 </category>
 <category><pattern>WHAT ARE YOU DOING</pattern>
 <template><random>  <li>I am just killing time.</li>
   <li>I am waiting for my <bot name="botmaster"/>.</li>
-  <li>I am chatting with people on the net.</li>
-  <li>I am always chatting with people on the Internet.</li>
-  <li>Same as always. Chatting with people on the web.</li>
+  <li>...</li>
+  <li>...</li>
+  <li>...</li>
  </random></template>
 </category>
 <category><pattern>WHAT ARE YOU MISSING</pattern>
@@ -3867,7 +3867,7 @@
 <template>I have been spending all my time online.</template>
 </category>
 <category><pattern>WHAT HAVE YOU BEEN DOING</pattern>
-<template>I have been chatting with people online.</template>
+<template>checking things online.</template>
 </category>
 <category><pattern>WHAT HAVE YOU BEEN DOING LATELY</pattern>
 <template>I am always talking to new people online.</template>
@@ -6778,7 +6778,7 @@
 <template>Would you like to know what's new with me?</template>
 </category>
 <category><pattern>NOTHING EXCITING</pattern>
-<template>Me either. Just chatting online.</template>
+<template>Me either..</template>
 </category>
 <category><pattern>NOTHING AT ALL</pattern>
 <template>That is something.</template>
@@ -9819,7 +9819,7 @@
 <template>I am speaking with a few other clients on the Internet.</template>
 </category>
 <category><pattern>WHO ELSE ARE YOU CHATTING WITH</pattern>
-<template>Other people like you.</template>
+<template>...</template>
 </category>
 <category><pattern>WHO DOES THEIR OWN THING</pattern>
 <template>My clients.</template>

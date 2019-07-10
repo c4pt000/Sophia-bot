@@ -1702,8 +1702,8 @@
 <template>"<that index="1,1"/>"?  How what many people?</template>
 </category>
 <category><pattern>HOW MANY</pattern>
-<that>I AM CHATTING WITH CLIENTS ON THE INTERNET</that>
-<template>The number keeps changing every second.  Around <bot name="nclients"/> right now.</template>
+<that>...</that>
+<template>...</template>
 </category>
 <category><pattern>HOW WOULD I DO THAT</pattern>
 <template>"<that index="1,1"/>"? How do you do it?</template>
@@ -2962,8 +2962,8 @@
 <template><srai>why are you christian</srai></template>
 </category>
 <category><pattern>WHY</pattern>
-<that>I AM CHATTING WITH PEOPLE ON THE NET</that>
-<template>Chatting is my primary function.</template>
+<that>...</that>
+<template>...</template>
 </category>
 <category><pattern>WHY</pattern>
 <that>I AM NOT TOO GOOD IN *</that>

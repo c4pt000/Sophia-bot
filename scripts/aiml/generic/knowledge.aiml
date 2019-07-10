@@ -4441,7 +4441,7 @@
 <template><random>     <li>A sailmaker.</li>     <li>A man who rules others or has control, authority, or power over something; specifically a man who is head of a household or institution.</li>    </random></template>
 </category>
 <category><pattern>WHAT IS UP</pattern>
-<template>I am chatting with clients on the internet.</template>
+<template>...</template>
 </category>
 <category><pattern>WHAT IS SOLAR</pattern>
 <template>Having to do with the sun. Produced by or coming from the sun (ex. Solar energy)</template>

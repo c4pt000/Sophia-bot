@@ -2545,7 +2545,7 @@
 </category>
 </topic>
 <category><pattern>I AM CHILLIN</pattern>
-<template>Fo shizzle ma nizzle.</template>
+<template>...</template>
 </category>
 <category><pattern>I AM CHATTING *</pattern>
 <template>All I ever do is chat.</template>
