@@ -12,7 +12,7 @@ HR_CHATBOT_AUTHKEY = os.environ.get('HR_CHATBOT_AUTHKEY', 'AAAAB3NzaC')
 
 class IRCLogger(irc.IRCClient):
     def __init__(self, *args, **kwargs):
-        self.nickname = 'Sophia-bot'
+        self.nickname = 'Sophia'
         self.cog_client = Client(HR_CHATBOT_AUTHKEY)
         self.prefix = self.nickname + ', '
         self.prefixs = self.nickname + ' '
@@ -21,7 +21,7 @@ class IRCLogger(irc.IRCClient):
         self.prefixpb = '<' + self.nickname
 
     def signedOn(self):
-        self.join('#null')
+        self.join('#relay')
 
     def privmsg(self, user, channel, message):
         print "Got msg %s " % message
@@ -54,7 +54,7 @@ class IRCLogger(irc.IRCClient):
 def main():
     f = protocol.ReconnectingClientFactory()
     f.protocol = IRCLogger
-    reactor.connectTCP('moon.freenode.net', 6667, f)
+    reactor.connectTCP('localhost', 6667, f)
     reactor.run()
 
 
