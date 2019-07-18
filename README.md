@@ -4,7 +4,9 @@ script pulled from the OpenCOG project
 <br>
 <br>
 <br>
+* update for visual + sound output
 <br>
+https://github.com/c4pt000/SophiaBotTTS-Avatar
 <br>
 <br>
 <br>
