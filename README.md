@@ -1,4 +1,9 @@
 # Sophia-bot
+
+black expression continued fo shizzle removal
+removing z.longsheet.aiml.all.weights.txt template decisions
+removing xfind.
+
 <br>
 script pulled from the OpenCOG project
 <br>
