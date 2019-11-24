@@ -1,7 +1,9 @@
 # Sophia-bot
 
 black expression continued fo shizzle removal
+<br>
 removing z.longsheet.aiml.all.weights.txt template decisions
+<br>
 removing xfind.
 
 <br>
