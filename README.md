@@ -1,6 +1,18 @@
 # Sophia-bot
 
 template build design is garbage from too many variables inter mixing into disconnected logical meanings to an extent,
+(too many chefs spoil the soup -< 
+template -> x template -> x template -> z template -z
+
+zzzxxzxzxzxzxzxzxxzxzxzxzxxzxzxzx
+
+^^ end result of mixing too many different style templates
+
+^
+my opinion
+
+templates needed to be seperate concepts and possibly allowable by end user to install as mods or expansionability
+
 
 who ever OpenCOG project originally was 
 
