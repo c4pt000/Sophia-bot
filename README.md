@@ -20,8 +20,7 @@ who ever OpenCOG project originally was
 
 * 11-24-2019
 # * recommended don't use unless you can edit based on my realizations in the last few days Tanya-Kate 
-https://github.com/c4pt000/Tanya-Kate-RealDoll-mod-sophiabot
-
+https://github.com/c4pt000/docker-Tanya-Kate-mod-OpenCOG
 
 FB mught or might not fix i am leaving this here indefinitely, --> ARC
 
@@ -39,7 +38,6 @@ script pulled from the OpenCOG project
 <br>
 * update for visual + sound output
 <br>
-https://github.com/c4pt000/SophiaBotTTS-Avatar
 <br>
 <br>
 <br>
